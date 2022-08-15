@@ -1,0 +1,8 @@
+#!/bin/bash -l
+#  FILENAME: server.sub
+export R_LIBS=~/Rlibs:$R_LIBS
+cd /class/datamine/corporate/bayer/students/Diana_Escamilla/impute
+
+module load r
+
+Rscript server_imputation.R 
